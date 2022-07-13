@@ -6,7 +6,8 @@
 .DS_Store
 
 # Project
-data/*
+data/raw/*
+data/processed/*
 models/*
 reports/*
 
