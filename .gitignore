@@ -6,6 +6,7 @@
 .DS_Store
 
 # Project
+notebooks/*.ipynb
 #data/raw/*
 #data/processed/*
 #models/*
