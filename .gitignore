@@ -7,9 +7,9 @@
 
 # Project
 data/raw/*
-data/processed/*
-models/*
-reports/*
+#data/processed/*
+#models/*
+#reports/*
 
 # Python
 __pycache__
