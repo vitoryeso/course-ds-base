@@ -18,11 +18,11 @@ def data_load(config_path: Text) -> None:
 
     data = load_iris(as_frame=True)
     dataset = data.frame
+
     dataset.columns = [colname.strip(' (cm)').replace(' ', '_')
                        for colname in dataset.columns.tolist()]
-
-    dataset.to_csv(config["data"]["raw_data_path"])
-    print("raw data saved.")
+    dataset.to_csv(config["data"]["raw_data_path"], index=False)
+    print("Data Load Complete.")
 
 
 if __name__ == "__main__":
