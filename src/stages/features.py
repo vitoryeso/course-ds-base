@@ -8,9 +8,10 @@ import yaml
 import pandas as pd
 
 
-def data_load(config_path: Text) -> None:
-    """
-        This function download the data and save it in a specified path.
+def featurize(config_path: Text) -> None:
+    """Create new features.
+    Args:
+        config_path {Text}: path to config
     """
 
     with open(config_path, 'r', encoding='utf-8') as configuration_path:
@@ -37,4 +38,4 @@ if __name__ == "__main__":
     args_parser.add_argument("--config", dest='config', required=True)
     args = args_parser.parse_args()
 
-    data_load(args.config)
+    featurize(args.config)

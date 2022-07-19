@@ -9,8 +9,9 @@ from sklearn.datasets import load_iris
 
 
 def data_load(config_path: Text) -> None:
-    """
-        This function download the data and save it in a specified path.
+    """Create new features.
+    Args:
+        config_path {Text}: path to config
     """
 
     with open(config_path, 'r', encoding='utf-8') as configuration_path:
