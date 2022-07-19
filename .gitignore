@@ -11,9 +11,9 @@ dvc-venv/
 
 # Project
 #notebooks/*.ipynb
-#data/raw/*
-#data/processed/*
-#models/*
+data/raw/*
+data/processed/*
+models/*
 #reports/*
 
 # Python
