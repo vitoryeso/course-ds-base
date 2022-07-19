@@ -6,10 +6,11 @@
 .DS_Store
 
 # Project
-data/raw/*
-data/processed/*
-models/*
-reports/*
+notebooks/*.ipynb
+#data/raw/*
+#data/processed/*
+#models/*
+#reports/*
 
 # Python
 __pycache__
