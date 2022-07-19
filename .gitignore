@@ -5,6 +5,10 @@
 ## OS configs
 .DS_Store
 
+# Venv
+dvc-venv/*
+dvc-venv/
+
 # Project
 #notebooks/*.ipynb
 #data/raw/*
@@ -16,5 +20,3 @@
 __pycache__
 .ipynb_checkpoints
 
-# Venv
-dvc-venv/*
