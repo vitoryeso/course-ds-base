@@ -1,0 +1,31 @@
+base:
+    random_state: 42
+
+data:
+    # loading data
+
+    raw_data_path: data/raw/iris.csv
+    features_data_path: data/processed/features.csv
+    
+    trainset_path: data/processed/train.csv
+    testset_path: data/processed/test.csv
+    test_size: 0.2
+
+
+train:
+    # training, hyperparameters
+    #
+
+    classifier_params:
+        'C': 0.001
+        'solver': 'lbfgs'
+        'multi_class': 'multinomial'
+        'max_iter': 100
+    model_path: models/model.joblib
+    
+
+reports:
+    # metrics, result_images, etc
+
+    metrics_file_path: reports/metrics.json
+    confusion_matrix_path: reports/confusion_matrix.jpg
