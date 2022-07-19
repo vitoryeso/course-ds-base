@@ -19,4 +19,9 @@ models/*
 # Python
 __pycache__
 .ipynb_checkpoints
+src/data/__pycache__
+src/features/__pycache__
+src/report/__pycache__
+src/stages/__pycache__
+src/train/__pycache__
 
