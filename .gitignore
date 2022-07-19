@@ -17,4 +17,4 @@ __pycache__
 .ipynb_checkpoints
 
 # Venv
-dvc-venv
+dvc-venv/*
