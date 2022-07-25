@@ -7,7 +7,7 @@
 
 # Venv
 dvc-venv/*
-dvc-venv/
+dvc-venv
 
 # Project
 #notebooks/*.ipynb
